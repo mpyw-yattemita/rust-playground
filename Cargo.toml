@@ -1,0 +1,24 @@
+[package]
+name = "rust-playground"
+version = "0.0.0"
+authors = ["mpyw <ryosuke_i_628@yahoo.co.jp>"]
+
+[dependencies]
+
+[features]
+
+[[bin]]
+name = "sort-builtin"
+path = "src/sort/builtin.rs"
+
+[[bin]]
+name = "sort-bubble"
+path = "src/sort/bubble.rs"
+
+[[bin]]
+name = "sort-quick-recursive"
+path = "src/sort/quick_recursive.rs"
+
+[[bin]]
+name = "sort-quick-stack"
+path = "src/sort/quick_stack.rs"
