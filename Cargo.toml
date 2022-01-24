@@ -22,3 +22,7 @@ path = "src/sort/quick_recursive.rs"
 [[bin]]
 name = "sort-quick-stack"
 path = "src/sort/quick_stack.rs"
+
+[[bin]]
+name = "permutation"
+path = "src/permutation.rs"
